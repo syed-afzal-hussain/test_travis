@@ -4,10 +4,8 @@ language: python
 
 # Run tests
 script: 
-  - "pwd"
+  - "touch newFile"
   - "ls"
-  - "ifconfig"
-  - "du -h /"
 
 # configure notifications (email, IRC, campfire etc)
 notifications:
